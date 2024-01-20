@@ -13,6 +13,9 @@ public class Cube {
     public int getVolume () {
         return (side * side * side);
     }
+    public String toString() {
+        return ("Cube {\nside = " + side);
+    }
     public Cube() {
         this.side = 1;
     }
